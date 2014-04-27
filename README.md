@@ -1,3 +1,12 @@
+# Intructions
+
+```
+-- Apply redo.do recompiling the program 
+./redo redo
+-- Apply default.txt.do moving TEST.markdown to plain text file
+./redo TEST.txt
+```
+
 # Debugging
 
 Only it's possible debugging on intrepreted mode, non in compiled mode
