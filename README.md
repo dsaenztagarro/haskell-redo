@@ -6,6 +6,9 @@
 -- Apply default.txt.do moving TEST.markdown to plain text file
 ./redo TEST.txt
 ```
+# Installation
+
+v0.08: `cabal install PureMD5`
 
 # Documentation
 
