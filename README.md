@@ -7,6 +7,10 @@
 ./redo TEST.txt
 ```
 
+# Documentation
+
+http://www.haskell.org/ghc/docs/7.8.1/html/
+
 # Debugging
 
 Only it's possible debugging on intrepreted mode, non in compiled mode
