@@ -3,16 +3,33 @@
 ```
 -- Apply redo.do recompiling the program 
 ./redo redo
+
 -- Apply default.txt.do moving TEST.markdown to plain text file
 ./redo TEST.txt
 ```
 # Installation
 
-v0.08: `cabal install PureMD5`
+```
+# ~/.bash_profile
+export HASKELL_PATH=$HOME/Library/Haskell
+export PATH=$HASKELL_PATH/bin:$PATH
+
+-- Needed from v0.08
+cabal install PureMD5`
+
+-- To get suggestions to improve your code
+cabal install hlint
+```
+
+
 
 # Documentation
 
 http://www.haskell.org/ghc/docs/7.8.1/html/
+
+Doc for installed packages:
+
+`/Users/dst/Library/Haskell/doc/index.html`
 
 # Debugging
 
